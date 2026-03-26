@@ -9,7 +9,10 @@ public class bai64 {
         double b = sc.nextDouble();
         double x = -b/a;
         if (a==0)
-            System.out.println("phương trình vô n: ");
+            System.out.println("phương trình vô số n ");
+        else if (b!=0) {
+            System.out.println("phương trình vô n");
+        }
         else {
             System.out.println("phương trình có nghiệm = " + x);
         }
