@@ -6,5 +6,5 @@ public class baitapbosung {
         Scanner sc = new Scanner(System.in);
         System.out.println("mời nhập a: ");
         int a;
-    }
+    }avcafuias
 }
