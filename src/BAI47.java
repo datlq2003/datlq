@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class BAI47 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x =
+        System.out.println("mời nhập x:");
+        int x = sc.nextInt();
         int tich = 0;
         while (x > 0) {
             int chuso = x % 10; //  5

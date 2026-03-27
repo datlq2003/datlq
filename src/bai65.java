@@ -11,19 +11,29 @@ public class bai65 {
         double b = sc.nextDouble();
         System.out.println("nhập c= ");
         double c = sc.nextDouble();
-        double delta = Math.pow(b,2)-(4*a*c);
-        if (delta<0)
-            System.out.println("phương trình vô nghiệm");
-        else if (delta==0){
-            double x = -b/(2*a);
-            System.out.println("phương trình có nghiệm kép x1= x2 = " + x);
+        if(a==0) {
+            if (b==0){
+                if (c==0){
+                    System.out.println("phương trình vô số n");
+                }else {
+                    System.out.println("phương trình vô n ");
+                }
+            }else {
+                double x = -c/b;
+                System.out.println("phương trình có n ");
+            }
+        }else {
+            double delta = (b*b)-(4*a*c);
+            if (delta<0){
+                System.out.println("phương trình vô n");
+            }else if (delta==0){
+                System.out.println("phương trình có n kép x1=x2= " + (-b)/(2*a));
+            }else {
+                double x1= ((-b)+Math.sqrt(delta))/(2*a);
+                double x2= ((-b)-Math.sqrt(delta))/(2*a);
+                System.out.println("phương trình có n x1 = " + x1);
+                System.out.println("phương trình có n x2 = " + x2);
+            }
         }
-        else {
-            double x1 = (-b+Math.sqrt(delta)/2*a);
-            double x2 = (-b-Math.sqrt(delta)/2*a);
-            System.out.println("phương trình có 2 n x1 = " + x1);
-            System.out.println("phương trình có 2 n x2 = "+ x2);
-        }
-
     }
 }

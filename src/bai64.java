@@ -7,13 +7,14 @@ public class bai64 {
         double a = sc.nextDouble();
         System.out.println("nhập b: ");
         double b = sc.nextDouble();
-        double x = -b/a;
-        if (a==0)
-            System.out.println("phương trình vô số n ");
-        else if (b!=0) {
-            System.out.println("phương trình vô n");
-        }
-        else {
+        if (a==0) {
+         if (b==0) {
+                System.out.println("phương trình vô số n ");
+            }else {
+                System.out.println("phương trình vô n ");
+            }
+        } else {
+            double x = -b/a;
             System.out.println("phương trình có nghiệm = " + x);
         }
     }
