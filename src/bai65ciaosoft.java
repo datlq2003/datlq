@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bai65 {
+public class bai65ciaosoft {
     // delta = b^2-4ac , delta <0 vo n, delta = 0 n kep, delta >0 co 2 n
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

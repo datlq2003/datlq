@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bai27 {
+public class bai27ciaosoft {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập n: ");

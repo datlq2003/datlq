@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BAI47 {
+public class bai47ciaosoft {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("mời nhập x:");
