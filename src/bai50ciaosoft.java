@@ -14,5 +14,4 @@ public class bai50ciaosoft {
         }
         System.out.println("số đảo ngược là: " + sodao);
     }
-    abcxzyfas
 }
