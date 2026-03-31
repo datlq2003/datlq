@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class bai59 {
+/*public class bai59 {
     public static void main(String[] args) {
         Scanner sc = new Scanner()
     }
-}
+}*/
