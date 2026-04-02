@@ -7,21 +7,17 @@ public class bai47ciaosoft {
         int x = sc.nextInt();
         int tich = 0;
         while (x > 0) {
-            int chuso = x % 10; //  5
+            int chuso = x % 10;
             if (chuso % 2 != 0) {
-                //tich *= chuso;
-                if (tich == 0) { //
-                    tich = chuso; //
-
+                if (tich == 0) {
+                    tich = chuso;
                 } else {
-                    tich = tich * chuso; //
+                    tich = tich * chuso;
                 }
                 System.out.println("Số lẻ là " + chuso);
-
             }
-            x = x / 10; //
+            x = x / 10;
         }
-
         System.out.println("tich se la " + tich);
     }
 }
