@@ -5,7 +5,7 @@ public class bai74ciaosoft {
         double sum = 1;
         double term = 1;
         for (int k = 1; k <= n; k++) {
-            term = term * (-x * x) / (2 * k * (2 * k + 1));
+            term = term * (-x * x) / (2 * k) * (2 * k + 1);
             sum += term;
         }
         System.out.println("S = " + sum);
