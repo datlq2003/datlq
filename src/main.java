@@ -1,9 +1,11 @@
-import java.util.Scanner;ublic class main {
+import java.util.Scanner;
+
+public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         TuyenSinh tuyenSinh = new TuyenSinh();
         while (true) {
-            System.out.println(" QUẢN LÝ TUYỂN SINH ");
+            System.out.println("\n===== QUẢN LÝ TUYỂN SINH =====");
             System.out.println("1. Thêm mới thí sinh");
             System.out.println("2. Hiển thị danh sách thí sinh");
             System.out.println("3. Tìm kiếm theo số báo danh");
@@ -60,4 +62,5 @@ import java.util.Scanner;ublic class main {
         }
     }
 }
+
 
