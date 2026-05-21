@@ -18,7 +18,6 @@ public class bai195ciaosoft {
             System.out.println("Khong co bo ba thoa dieu kien");
         }
     }
-
     public static void main(String[] args) {
         double[] a = {2, 4, 6, 1, 5};
         lietKe(a);

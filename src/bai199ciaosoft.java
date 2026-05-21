@@ -6,7 +6,6 @@ public class bai199ciaosoft {
         }
         return true;
     }
-
     public static void lietKe(int[] a) {
         boolean found = false;
         for (int i = 0; i < a.length; i++) {
@@ -19,7 +18,6 @@ public class bai199ciaosoft {
             System.out.print("Khong co");
         }
     }
-
     public static void main(String[] args) {
         int[] a = {4, 7, 10, 13, 6, 2};
         lietKe(a);
